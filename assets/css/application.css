@@ -9,6 +9,7 @@
     2.  Grid
     3.  Pagination
     4.  Syntax Highlighting
+    5.  Customized Style
 
 */
 
@@ -133,7 +134,6 @@ h4, h5, h6 {
   -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   color: #2E2E2E;
-  line-height: 1.15em;
   font-family: inherit;
   font-weight: 400;
   text-rendering: geometricPrecision;
@@ -171,7 +171,7 @@ h6 {
   color: #777777;
   font-weight: 300;
   font-size: 75%;
-  line-height: 1;
+  line-height: 0.875;
 }
 
 a {
@@ -183,6 +183,8 @@ a {
 
 a:hover {
   color: #111;
+  border-bottom: 1px solid #3A4145;
+  padding-bottom: 3px;
 }
 
 p, ul, ol, dl {
@@ -706,4 +708,24 @@ pre[class*="language-"] {
 
 .token a {
 	color: inherit;
+}
+
+/* ==========================================================================
+   5. Customized Style
+   ========================================================================== */
+
+
+.blog-title {
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.nav-list {
+  margin: 0 4px;
+}
+
+.nav-current {
+  border-bottom: 1px solid #3A4145;
+  padding-bottom: 3px;
 }

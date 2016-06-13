@@ -17,17 +17,17 @@
     <div class="container">
       {{!-- The big featured header --}}
       <header>
-        <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-        <h4><div class="small">{{@blog.description}}</div></h4>
+        <div class="blog-title">{{@blog.title}}</div>
+        <div class="blog-description">{{@blog.description}}</div>
+        {{navigation}}
       </header>
       {{{body}}}
       <footer>
-        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+        <h6 class="small"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</h6>
       </footer>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     {{ghost_foot}}
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
 </body>
-
 </html>
