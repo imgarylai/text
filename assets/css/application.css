@@ -8,7 +8,7 @@
     1.  Typography
     2.  Grid
     3.  Pagination
-    4.  Prism
+    4.  Syntax Highlighting
 
 */
 
@@ -242,6 +242,7 @@ blockquote {
   box-sizing: border-box;
   margin: 1.75em 0 1.75em -2.2em;
   padding: 0 0 0 1.75em;
+  font-weight: 400;
   border-left: #4A4A4A 0.4em solid;
 }
 
@@ -256,8 +257,6 @@ blockquote {
   font-size: 0.9em;
   color: #CCC;
 }
-
-blockquote:before { content: "\2014 \00A0"; }
 
 blockquote cite {
   font-weight: 700;
@@ -477,7 +476,6 @@ blockquote cite {
    3. Pagination
    ========================================================================== */
 
-
 .pagination {
     display: inline-block;
     margin: 20px 0;
@@ -548,8 +546,40 @@ blockquote cite {
 }
 
 /* ==========================================================================
-   4. prism.css
+   4. Syntax Highlighting
    ========================================================================== */
+
+/* Code */
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
 
 /* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+c+cpp+coffeescript+ruby+css-extras+git+haml+handlebars+jade+java+json+latex+less+markdown+matlab+python+r+sass+scss+scala+yaml&plugins=autolinker */
 /**
