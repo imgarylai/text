@@ -559,8 +559,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: #f8f8f2;
+  background-color: none;
   border-radius: 3px;
 }
 pre {
@@ -574,7 +574,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #272822;
 }
 pre code {
   padding: 0;
