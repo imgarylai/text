@@ -99,7 +99,7 @@ td, th{ padding: 0; }
 html {
   height: 100%;
   max-height: 100%;
-  font-size: 62.5%;
+  font-size: 48.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -399,6 +399,9 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
+  html {
+    font-size: 58.5%;
+  }
   .container {
     width: 80%;
   }
@@ -459,6 +462,9 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
+  html {
+    font-size: 62.5%;
+  }
   .container {
     width: 75%;
     max-width: 60rem;
