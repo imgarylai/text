@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="stylesheet" type="text/css" href="{{asset "css/application.css"}}" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    {{ghost_head}}
+  </head>
+  <body>
+    {{!-- {{navigation}} --}}
+    <div class="container">
+      {{!-- The big featured header --}}
+      <header>
+        <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        <h4><div class="small">{{@blog.description}}</div></h4>
+      </header>
+      {{{body}}}
+      <footer>
+        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+      </footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    {{ghost_foot}}
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+</body>
+
+</html>

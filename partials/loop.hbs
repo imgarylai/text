@@ -1,0 +1,21 @@
+{{!-- This is the post loop - each post will be output using this markup --}}
+{{#foreach posts}}
+<article>
+    <header>
+      <h2><a href="{{url}}">{{title}}</a></h2>
+    </header>
+    <section>
+      <p>
+        {{excerpt words="36"}}
+        <br>
+        <a href="{{url}}">read more &raquo;</a>
+      </p>
+    </section>
+    <footer>
+      <h5>{{author}} {{tags prefix=" on "}} <time class="small" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time></h5>
+    </footer>
+</article>
+{{/foreach}}
+
+{{!-- Previous/next page links - displayed on every page --}}
+{{pagination}}
