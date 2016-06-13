@@ -721,6 +721,9 @@ pre[class*="language-"] {
   line-height: 2;
   font-weight: 400;
 }
+.blog-title > a:hover  {
+  border: none;
+}
 
 .nav-list {
   margin: 0 4px;
