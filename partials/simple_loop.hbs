@@ -1,0 +1,7 @@
+{{!-- This is the post loop - each post will be output using this markup --}}
+{{#foreach posts}}
+  <h4><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> - <a href="{{url}}">{{title}}</a></h4>
+{{/foreach}}
+
+{{!-- Previous/next page links - displayed on every page --}}
+{{pagination}}
