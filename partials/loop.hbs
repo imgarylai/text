@@ -1,9 +1,6 @@
 {{!-- This is the post loop - each post will be output using this markup --}}
 {{#foreach posts}}
 <article>
-    <header>
-      <h1><a href="{{url}}">{{title}}</a></h1>
-    </header>
     <section>
       <p>
         {{excerpt words="36"}}
@@ -14,6 +11,9 @@
     <footer>
       <h5>{{author}} {{tags prefix=" on "}} <time class="small" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time></h5>
     </footer>
+  <div class="post-title">
+    <h1><a href="{{url}}">{{title}}</a></h1>
+  </div>
 </article>
 {{/foreach}}
 
