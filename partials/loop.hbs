@@ -1,19 +1,20 @@
 {{!-- This is the post loop - each post will be output using this markup --}}
 {{#foreach posts}}
 <article>
-    <section>
-      <p>
-        {{excerpt words="36"}}
-        <br>
-        <a href="{{url}}">read more &raquo;</a>
-      </p>
-    </section>
-    <footer>
-    </footer>
   <div class="post-title">
     <h1><a href="{{url}}">{{title}}</a></h1>
   </div>
+  <div class="post-content">
+    <p>
+      {{excerpt characters="140"}}
+      <a href="{{url}}">read more &raquo;</a>
+    </p>
+  </div>
+  <h5>
+    <span class="small">{{author}} at</span>
     <time class="small" datetime="{{date format="YYYY-MM-DD"}}">{{date format="YYYY MMM DD"}}</time>
+    <span class="small">{{tags prefix=" | "}}</span>
+  </h5>
 </article>
 {{/foreach}}
 
