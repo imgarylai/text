@@ -4,6 +4,8 @@
 
 Live theme is use: [blog.gary-lai.com](https://blog.gary-lai.com)
 
+![preview image](blog.gary-lai.com-1366x768.png)
+
 ## Introduction
 
 This theme is for [Ghost](https://ghost.org), a blogging platform.
