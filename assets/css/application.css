@@ -502,7 +502,6 @@ article img {
 .small {
   font-size: 75%;
   font-weight: 300;
-  line-height: 0.875;
   color: #777777;
 }
 
@@ -517,6 +516,18 @@ a:hover {
   padding-bottom: 3px;
   color: #111111;
   border-bottom: 1px solid #3a4145;
+}
+
+.post-excerpt {
+  color: #777777;
+}
+
+a.post-excerpt {
+  font-weight: 300;
+}
+
+a:hover.post-excerpt {
+  border-bottom: none;
 }
 
 p, ul, ol, dl {
