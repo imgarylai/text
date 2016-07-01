@@ -2,13 +2,28 @@
 
 ![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg?style=flat-square)
 
-Live theme is use: [blog.gary-lai.com](https://blog.gary-lai.com)
-
-![preview image](blog.gary-lai.com-1366x768.png)
-
 ## Introduction
 
 This theme is for [Ghost](https://ghost.org), a blogging platform.
+
+I focus on things below:
+- Reader first: clear readability.
+- A responsive theme along with less CSS code and simple HTML construction.
+- Less animation, no font or image icon.  
+
+![preview image](blog.gary-lai.com-1366x768.png)
+
+## Demo
+
+Live theme is use my blog: [blog.gary-lai.com](https://blog.gary-lai.com)
+
+## Features
+
+- Responsive
+- Error Page(ex: 404, 500)
+- Authors, Tags, Pages
+- Navigation
+- Code highlighting via [highlightjs](https://highlightjs.org/)  
 
 ## Installation
 
