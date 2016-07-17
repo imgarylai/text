@@ -24,6 +24,8 @@ Live theme is use my blog: [blog.gary-lai.com](https://blog.gary-lai.com)
 - Authors, Tags, Pages
 - Navigation
 - Code highlighting via [highlightjs](https://highlightjs.org/)  
+- Google Analytics (Optional)
+- Disqus(Optional)
 
 ## Installation
 
@@ -36,6 +38,20 @@ Chose one option below:
 - DigitalOcean + Ghost: [How To Change Themes and Adjust Settings in Ghost](https://www.digitalocean.com/community/tutorials/how-to-change-themes-and-adjust-settings-in-ghost)
 
 After install the theme, please restart server then you can change theme on settings page.
+
+## Code Injection
+
+### Blog Header
+
+```
+<script>
+// to enable Google Analytics
+var ga_id = 'YOUR UA ID HERE';
+
+// to enable Disqus
+var disqus_shortname = 'YOUR DISQUS SHORT NAME HERE'
+</script>
+```
 
 ## Development
 
