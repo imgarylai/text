@@ -22,6 +22,22 @@
     </h4>
   </div>
   <div class="col-12">
+    {{! Disqus }}
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    if(disqus_shortname && typeof disqus_shortname === "string") {
+      var disqus_identifier = '{{post.id}}';
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    }
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+  <div class="col-12">
     <h4>Share this post on</h4>
     <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
