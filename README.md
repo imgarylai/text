@@ -24,6 +24,7 @@ Live theme is use my blog: [blog.gary-lai.com](https://blog.gary-lai.com)
 - Authors, Tags, Pages
 - Navigation
 - Code highlighting via [highlightjs](https://highlightjs.org/)  
+  - Line numbers support (Optional)
 - Google Analytics (Optional)
 - Disqus(Optional)
 
@@ -50,6 +51,16 @@ var ga_id = 'YOUR UA ID HERE';
 
 // to enable Disqus
 var disqus_shortname = 'YOUR DISQUS SHORT NAME HERE'
+</script>
+```
+
+### Blog footer
+
+```
+// to enable line number support
+<script type="text/javascript" src="/assets/js/highlightjs-line-numbers.min.js" ></script>
+<script>
+hljs.initLineNumbersOnLoad();
 </script>
 ```
 
