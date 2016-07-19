@@ -885,14 +885,15 @@ code {
   font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }
 code {
-  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.5;
   padding: 0.2em 0.5em;
   margin: 0;
   background-color: #f8f8f8;
   border-radius: 3px;
 }
 pre {
-  font-size: 12px;
+  font-size: 1.2rem;
   border-radius: 3px;
   display: block;
   overflow-x: auto;
@@ -902,6 +903,8 @@ pre {
 }
 
 .hljs-line-numbers {
+  font-size: 1.2rem;
+  line-height: 1.5;
   text-align: right;
   border-right: 1px solid #ccc;
   color: #999;
