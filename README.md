@@ -58,7 +58,6 @@ var disqus_shortname = 'YOUR DISQUS SHORT NAME HERE'
 
 ```
 // to enable line number support
-<script type="text/javascript" src="/assets/js/highlightjs-line-numbers.min.js" ></script>
 <script>
 hljs.initLineNumbersOnLoad();
 </script>
