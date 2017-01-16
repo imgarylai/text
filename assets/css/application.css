@@ -458,7 +458,6 @@ h1, h2, h3, h4, h5, h6 {
      -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
        -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   text-rendering: geometricPrecision;
-  margin: 0;
 }
 
 h1 {
