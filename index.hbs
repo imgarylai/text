@@ -6,3 +6,15 @@
   {{!-- The tag below includes the post loop - partials/loop.hbs --}}
   {{> "loop"}}
 </div>
+
+<script type="text/javascript">
+if(disqus_shortname && typeof disqus_shortname === "string") {
+  var disqus_identifier = '{{id}}';
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+  var dsq_cnt = document.createElement('script'); dsq_cnt.type = 'text/javascript'; dsq_cnt.async = true;
+  dsq_cnt.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq_cnt);
+  })();
+}
+</script>
