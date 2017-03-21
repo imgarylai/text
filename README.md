@@ -26,7 +26,7 @@ Live theme is use my blog: [blog.gary-lai.com](https://blog.gary-lai.com)
 - Code highlighting via [highlightjs](https://highlightjs.org/)  
   - Line numbers support (Optional)
 - Google Analytics (Optional)
-- Disqus(Optional)
+- Disqus(Optional): comments and comments count, (Thanks [@Windfarer](https://github.com/Windfarer))
 
 ## Installation
 
