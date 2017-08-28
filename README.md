@@ -9,9 +9,12 @@
 
 ## Introduction
 
-This theme is for [Ghost](https://ghost.org), a blogging platform.
+This theme is for [Ghost](https://ghost.org), a blogging platform. It supports ghost version greater than 1.0.0. 
+
+> For ghost <= v0.8.x, please use [verstion 1.3.0](https://github.com/imgarylai/text/tree/1.3.0)
 
 I focus on things below:
+
 - Reader first: clear readability.
 - A responsive theme along with less CSS code and simple HTML construction.
 - Less animation, no font or image icon.  
