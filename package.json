@@ -1,5 +1,18 @@
 {
   "name": "text",
-  "version": "1.3.0",
-  "author.email": "garylai1990@gmail.com"
+  "description": "👻 An elegant ghost blogging themes. Mandarin article optimization support.",
+  "version": "2.0.0",
+  "author": "Gary Lai",
+  "author.email": "garylai1990@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imgarylai/text"
+  },
+  "keywords": [
+    "node",
+    "ghost",
+    "blog",
+    "theme"
+  ],
+  "license": "MIT"
 }

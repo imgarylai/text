@@ -1,6 +1,11 @@
 # Text for Ghost
 
 ![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg?style=flat-square)
+![Ghost version](https://img.shields.io/badge/ghost-v1.0.0-blue.svg?style=flat-square)
+[![GitHub forks](https://img.shields.io/github/forks/imgarylai/text.svg?style=flat-square)](https://github.com/imgarylai/text/network)
+[![GitHub stars](https://img.shields.io/github/stars/imgarylai/text.svg?style=flat-square)](https://github.com/imgarylai/text/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/imgarylai/text.svg?style=flat-square)](https://github.com/imgarylai/text/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/imgarylai/text/master/LICENSE.md)
 
 ## Introduction
 
