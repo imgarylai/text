@@ -22,21 +22,22 @@
     </h4>
   </div>
   <div class="col-12">
-    {{! Disqus }}
+    {{! Disqus}}
     <div id="disqus_thread"></div>
-    <script>
-      var disqus_config = function () {
-        this.page.url = '{{url absolute="true"}}';
-        this.page.identifier = 'ghost-{{comment_id}}';
-      };
-      (function () {
-        var d = document, s = d.createElement('script');
-        s.src = '//'+ window.disqus_shortname +'.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      })();
+    <script type="text/javascript">
+      if (disqus_shortname && typeof disqus_shortname === "string") {
+        var disqus_identifier = '{{comment_id}}';
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      }
     </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Please enable JavaScript to view the
+      <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
   </div>
   <div class="col-12">
     <h4>Share this post on</h4>
