@@ -25,10 +25,16 @@
       </header>
       {{{body}}}
       <footer class="center">
+        {{#if @labs.subscribers}}
+          <div class="subscribe-form">
+             {{subscribe_form placeholder="youremail@example.com"}}
+          </div>
+        {{/if}}
         <p class="small"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</p>
         <p class="small">Powered by <a href="https://ghost.org" target="_blank">Ghost</a> | Theme - <a href="https://github.com/imgarylai/text" target="_blank">text</a></p>
       </footer>
     </div>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
     <script type="text/javascript" src="{{asset "js/highlightjs-line-numbers.min.js"}}" ></script>

@@ -806,6 +806,17 @@ blockquote cite {
   }
 }
 
+@media only screen and (min-width: 100em) {
+  /* 960px */
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    width: 75%;
+    max-width: 80rem;
+  }
+}
+
 /* Clears shit */
 .clearfix:before, .clearfix:after {
   display: table;
@@ -963,4 +974,74 @@ article a{
   padding-bottom: 3px;
   color: #111111;
   border-bottom: 1px solid #3a4145;
+}
+
+.subscribe-form {
+  background-color: #f0f0f0;
+  margin: 1.5em 0;
+  padding: 6.5vw 7vw 7vw;
+  border: color(var(--whitegrey) l(+2%)) 1px solid;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.subscribe-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.subscribe-form .form-group {
+  flex-grow: 1;
+}
+
+.subscribe-email {
+  margin: 0 -5px;
+  padding: 10px 5px;
+  width: 100%;
+  border: color(var(--lightgrey) l(+7%)) 1px solid;
+  color: var(--midgrey);
+  user-select: text;
+  border-radius: 5px;
+}
+
+.subscribe-email:focus {
+  outline: 0;
+  border-color: color(var(--lightgrey) l(-2%));
+}
+
+.subscribe-form button {
+  margin: 0 0 0 10px;
+  padding: 10px 20px;
+  outline: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.subscribe-form button:active,
+.subscribe-form button:focus {
+  background: color(var(--blue) lightness(-9%) saturation(-10%));
+}
+
+@media (max-width: 650px) {
+  .subscribe-form-title {
+    font-size: 2.4rem;
+  }
+  .subscribe-form p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .subscribe-form form {
+    flex-direction: column;
+  }
+  .subscribe-form .form-group {
+    width: 100%;
+  }
+  .subscribe-form button {
+    margin: 10px 0 0 0;
+  }
 }

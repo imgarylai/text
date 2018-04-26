@@ -36,6 +36,10 @@ Live theme is use my blog: [blog.gary-lai.com](https://blog.gary-lai.com)
 - Google Analytics (Optional)
 - Disqus(Optional): comments and comments count, (Thanks [@Windfarer](https://github.com/Windfarer))
 
+### Optional
+
+- subscriber 
+
 ## Installation
 
 Chose one option below:
