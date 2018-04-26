@@ -1,0 +1,12 @@
+{{!< default}} 
+  {{! This is a page template. A page outputs content just like any other post, and has all the same attributes
+  by default, but you can also customise it to behave differently if you prefer. }} 
+{{#get "posts" limit="all"}}
+{{#foreach posts}}
+<h4>
+  <time datetime="{{date format=" YYYY-MM-DD "}}">{{date format=" YYYY MMM DD"}}</time> -
+  <a href="{{url}}">{{title}}</a>
+</h4>
+{{/foreach}}
+{{/get}}
+</div>
