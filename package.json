@@ -15,10 +15,8 @@
     "url": "https://github.com/imgarylai/text"
   },
   "keywords": [
-    "node",
-    "ghost",
-    "blog",
-    "theme"
+    "ghost-theme",
+    "blog"
   ],
   "license": "MIT",
   "bugs": "https://github.com/imgarylai/text/issues",
