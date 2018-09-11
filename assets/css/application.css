@@ -9,7 +9,8 @@
     2.  Grid
     3.  Pagination
     4.  Syntax Highlighting
-    5.  Customized Style
+    5.  Table
+    6.  Customized Style
 
 */
 
@@ -927,7 +928,43 @@ pre {
 }
 
 /* ==========================================================================
-   5. Customized Style
+   5. Table
+   ========================================================================== */
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+td, th {
+  display: table-cell;
+  vertical-align: inherit;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+th {
+  text-align: left;
+}
+
+table thead th {
+  padding: 0.75rem;
+  vertical-align: bottom;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+}
+
+table tbody td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* ==========================================================================
+   6. Customized Style
    ========================================================================== */
 
 
