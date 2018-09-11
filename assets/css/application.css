@@ -11,6 +11,7 @@
     4.  Syntax Highlighting
     5.  Table
     6.  Customized Style
+    7.  Ghost 2.0
 
 */
 
@@ -495,6 +496,7 @@ p {
 }
 
 article img {
+  display: block;
   width: 100%;
   margin: 0.5em 0;
 }
@@ -1081,4 +1083,67 @@ article a{
   .subscribe-form button {
     margin: 10px 0 0 0;
   }
+}
+
+/* ==========================================================================
+   7. Ghost 2.0
+   ========================================================================== */
+.kg-width-wide {
+  position: relative;
+  width: 85vw;
+  min-width: 100%;
+  margin: auto calc(50% - 50vw);
+  transform: translateX(calc(50vw - 50%));
+}
+
+.kg-width-full {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+article figure {
+  margin: 0;
+}
+
+article figcaption {
+  text-align: center;
+}
+
+.kg-image-card,
+.kg-gallery-card {
+    margin: 0 0 1.5em;
+}	
+
+.kg-image-card figcaption,
+.kg-gallery-card figcaption {	
+    margin: -1.0em 0 1.5em;
+}	
+
+.kg-gallery-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em auto;
+  max-width: 1040px;
+  width: 100vw;
+}
+.kg-gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.kg-gallery-image img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.kg-gallery-row:not(:first-of-type) {
+  margin: 0.75em 0 0 0;
+}
+.kg-gallery-image:not(:first-of-type) {
+  margin: 0 0 0 0.75em;
 }
